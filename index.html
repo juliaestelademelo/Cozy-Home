@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cozy Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="style.css"> 
+    
+</head>
+
+<body>
+    <header>
+            <a href="#hero" class="logo">
+                <span class="logo-icon">Cozy Home</span> 
+            </a>
+    </header>
+
+    <main>
+        <section class="hero" id="hero" aria-label="">
+            <h1>Products</h1>
+            <h2>Search</h2>
+        </section>
+    
+        
+
+        <section class="filter" id="filter">
+
+            <div class="blocks">
+                <div>
+            <label for="productype" class="sr-only">Select</label>
+            <select name="productype" id="productype" required>
+                <option value="" disabled selected>Select a product</option>
+                <option value="lighting">Lighting</option>
+                <option value="plants">Pots and Plants</option>
+                <option value="textile">Textile</option>
+            </select>
+            </div>
+
+            <div>
+                <label for="search" class="sr-only">Search</label>
+                <input type="text" id="search" placeholder="What are you looking for?">
+            </div> 
+
+            </div>
+            
+
+            <div id="productlist">
+        
+
+            </div>
+            </section>
+       
+
+        
+        
+    </main>
+    <footer><p>&copy; 2026 Cozy Home — Portfolio project</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
